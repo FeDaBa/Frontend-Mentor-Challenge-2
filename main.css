@@ -1,0 +1,173 @@
+body
+{
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1em;
+
+    background-image: url(/Challenges/order-summary-component-main/images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    background-position: top;
+    background-color: rgb(224, 232, 255);
+}
+
+.card
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 400px;
+    height: 630px;
+
+    border-radius: 20px;
+    box-shadow: 0 20px 15px rgba(158, 158, 158, .4);
+}
+
+.card-img-top
+{
+    border-radius: 20px 20px 0 0;
+}
+
+.card-body
+{
+    text-align: center;
+}
+
+.card-body .card-title
+{
+    font-size: 1.6em;
+    font-weight: 900;
+
+    margin: 25px 0 18px 0;
+}
+
+.card-body .card-text
+{
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.plan
+{   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    margin: 20px;
+    padding: 20px 0px;
+    
+    border-radius: 10px;
+    background-color: rgb(248, 248, 248);
+}
+
+.plan-choice
+{
+    display: flex;
+    align-items: center;
+}
+.plan-choice .icon
+{
+    margin: 0 12px;
+}
+
+.plan a
+{
+    color: hsl(245, 75%, 52%);
+
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: 12px;
+}
+
+.plan a:hover
+{
+    text-decoration: none;
+    color: hsla(256, 75%, 52%, 0.75);
+}
+
+.type h6
+{
+    font-weight: 900;
+    margin: 0 0 5px 0px;
+}
+
+.type p
+{
+    margin: 0px;
+    color: hsl(224, 23%, 55%);
+}
+
+.butons
+{
+    display: block;
+    margin-top: 30px;
+}
+.butons a
+{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 10px;
+
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.butons .proceed
+{
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0 20px 15px rgba(158, 158, 158, .4);
+
+    padding: 12px 0;
+}
+
+.butons .proceed:hover
+{
+    background-color: hsla(256, 75%, 52%, 0.75);
+}
+
+.butons .close
+{
+    color: hsl(224, 23%, 55%);
+}
+
+.butons .close:hover
+{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .attribution 
+{   
+    position: fixed;
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a 
+{
+    color: hsl(228, 45%, 44%);
+} */
