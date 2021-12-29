@@ -6,7 +6,7 @@ body
     font-family: 'Red Hat Display', sans-serif;
     font-size: 1em;
 
-    background-image: url(/Challenges/order-summary-component-main/images/pattern-background-desktop.svg);
+    background-image: url(images/pattern-background-desktop.svg);
     background-repeat: repeat-x;
     background-position: top;
     background-color: rgb(224, 232, 255);
